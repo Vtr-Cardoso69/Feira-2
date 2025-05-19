@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Objetivos</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div id="particles-js"></div>
+    
+    
+    
+    <!--SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS-->
+    
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+    <script>
+        particlesJS("particles-js", {
+            "particles": {
+                "number": {
+                    "value": 200, /* Número de partículas */
+                    "density": {
+                        "enable": true,
+                        "value_area": 800
+                    }
+                },
+                "color": {
+                    "value": "#000000"
+                },
+                "shape": {
+                    "type": "triangle"
+                },
+                "opacity": {
+                    "value": 0.9
+                },
+                "size": {
+                    "value": 3
+                },
+                "move": {
+                    "speed": 2
+                }
+            },
+            "interactivity": {
+                "events": {
+                    "onhover": {
+                        "enable": true,
+                        "mode": "grab" /* Partículas fogem do mouse */
+                    }
+                }
+            }
+        });
+    </script>
+    
+    
+    
+    
+    
+    
+    
+    
+    <header>
+        <h1>Meu Projeto de Vida</h1>
+        <p>"Não a futuro pra quem não sonha</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre-mim.html">Sobre Mim</a></li>
+                <li><a href="minha-visao.html">Minha Visão</a></li>
+                <li><a href="meu-plano.html">Meu Plano</a></li>
+                <li><a href="recursos.html">Recursos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+       
+       <h1 style="text-align: center;">PLANOS</h1>
+       
+        <section class="objective-card">
+            <h2>Objetivo 1: ME DAR BEM</h2>
+            <h3>Meta SMART:</h3>
+            <p>Estar Bem</p>
+            <h3>Plano de Ação:</h3>
+            <ul>
+                <li>Passo 1: Não desistir.</li>
+                <li>Passo 2: Buscar novas formas.</li>
+            
+            </ul>
+        </section>
+        
+        
+        
+        
+        
+        <section class="objective-card">
+            <h2>Objetivo 2: MELHORAR QUALQUER RELAÇÃO</h2>
+            <h3>Meta SMART:</h3>
+            <p>CONVERSAR COM QUALQUER UM, COMO SE FOSSE NORMAL</p>
+            <h3>Plano de Ação:</h3>
+            <ul>
+                <li>Passo 1: Conversar com a família sobre a ideias.</li>
+                <li>Passo 2: Definir um dia fixo na semana para o jantar.</li>
+                <li>Passo 3: Criar um ambiente agradável para conversas.</li>
+            </ul>
+        </section>
+
+
+
+
+   </main>
+<br>
+<br>
+<br>
+<br>
+
+</body>
+</html>
+
+<style>
+    
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            margin-top: 80px;
+        }
+        .objective-card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 10px;
+            width: 80%;
+            max-width: 600px;
+            transition: transform 0.3s ease-out;
+        }
+        .objective-card:hover {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 10px;
+            width: 80%;
+            max-width: 600px;
+            transform: scale(1.2);
+        }
+        .objective-card h2 {
+            color: #0073e6;
+        }
+        ul {
+            text-align: left;
+        }
+        
+        
+          
+        
+        /* MODIFICAÇÃO DO NAVEGADOR-SITE */
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        
+        header {
+            background-color: #0073e6;
+            color: white;
+            padding: 20px;
+        }
+        
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+        
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        
+        nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: inline-block; 
+    transition: transform 0.3s ease-out, color 0.3s ease-in-out;
+   
+}
+nav ul li a:hover {
+    color: rgb(37, 213, 90);
+    text-decoration: none;
+   transform: scale(1.2);
+}
+/*SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS*/
+#particles-js {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1; /* Para ficar atrás do conteúdo */
+    background: #ffffff; /* Cor de fundo */
+    
+}
+   </style>

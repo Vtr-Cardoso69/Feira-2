@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Projeto de Vida</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div id="particles-js"></div>
+
+
+
+    <!--SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS-->
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+    <script>
+        particlesJS("particles-js", {
+            "particles": {
+                "number": {
+                    "value": 200, /* Número de partículas */
+                    "density": {
+                        "enable": true,
+                        "value_area": 800
+                    }
+                },
+                "color": {
+                    "value": "#000000"
+                },
+                "shape": {
+                    "type": "triangle"
+                },
+                "opacity": {
+                    "value": 0.9
+                },
+                "size": {
+                    "value": 3
+                },
+                "move": {
+                    "speed": 2
+                }
+            },
+            "interactivity": {
+                "events": {
+                    "onhover": {
+                        "enable": true,
+                        "mode": "grab" /* Partículas fogem do mouse */
+                    }
+                }
+            }
+        });
+    </script>
+
+
+
+
+
+
+
+
+    <header>
+        <h1>Meu Projeto de Vida</h1>
+        <p>"Não a futuro pra quem não sonha</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre-mim.html">Sobre Mim</a></li>
+                <li><a href="minha-visao.html">Minha Visão</a></li>
+                <li><a href="meu-plano.html">Meu Plano</a></li>
+                <li><a href="recursos.html">Recursos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <br>
+    <br>
+
+
+    <h1 style="text-align: center;">RECURSOS</h1>
+
+    <main>
+        <section class="section">
+            <h2>Links Úteis</h2>
+            <ul>
+                <li><a href="https://www.senai.br">SENAI</a></li>
+                <li><a href="https://www.coursera.org">Coursera</a></li>
+                <li><a href="https://www.khanacademy.org">Khan Academy</a></li>
+                <li><a href="https://www.vestibular.com.br/simulados/">Simulados Vestibular</a></li>
+            </ul>
+        </section>
+
+
+
+
+        <section class="section">
+            <h2>Inspirações</h2>
+            <ul>
+                <li>Meu Pai</li>
+            </ul>
+        </section>
+        <section class="section">
+            <h2>Rede de Apoio</h2>
+            <p>Lista de mentores e contatos-chave para suporte pessoal e profissional.</p>
+            <ul>
+                <li>CHAT GPT</li>
+                <li>YOUTUBE</li>
+
+            </ul>
+        </section>
+    </main>
+
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+<style>
+    main {
+        padding: 20px;
+        max-width: 800px;
+        margin: auto;
+    }
+
+    .section {
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+        transition: transform 0.3s ease-out; 
+    }
+
+    .section:hover {
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.307);
+        margin-bottom: 20px;
+        transform: scale(1.1);
+
+    }
+
+    .section h2 {
+        color: #0073e6;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    ul li {
+        margin: 10px 0;
+    }
+
+    a {
+        color: #0073e6;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+
+
+
+    /* MODIFICAÇÃO DO NAVEGADOR-SITE */
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        text-align: center;
+    }
+
+    header {
+        background-color: #0073e6;
+        color: white;
+        padding: 20px;
+    }
+
+    nav ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    nav ul li {
+        display: inline;
+        margin: 0 15px;
+    }
+
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        display: inline-block;
+        transition: transform 0.3s ease-out, color 0.3s ease-in-out;
+
+    }
+
+    nav ul li a:hover {
+        color: rgb(37, 213, 90);
+        text-decoration: none;
+        transform: scale(1.2);
+    }
+
+
+    /*SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS*/
+    #particles-js {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        /* Para ficar atrás do conteúdo */
+        background: #ffffff;
+        /* Cor de fundo */
+
+    }
+</style>

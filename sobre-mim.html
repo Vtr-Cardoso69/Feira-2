@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Projeto de Vida</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div id="particles-js"></div>
+    
+    
+    
+    <!--SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS-->
+    
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+    <script>
+        particlesJS("particles-js", {
+            "particles": {
+                "number": {
+                    "value": 200, /* Número de partículas */
+                    "density": {
+                        "enable": true,
+                        "value_area": 800
+                    }
+                },
+                "color": {
+                    "value": "#000000"
+                },
+                "shape": {
+                    "type": "triangle"
+                },
+                "opacity": {
+                    "value": 0.9
+                },
+                "size": {
+                    "value": 3
+                },
+                "move": {
+                    "speed": 2
+                }
+            },
+            "interactivity": {
+                "events": {
+                    "onhover": {
+                        "enable": true,
+                        "mode": "repulse" /* Partículas fogem do mouse */
+                    }
+                }
+            }
+        });
+    </script>
+    
+<header>
+        <h1>Meu Projeto de Vida</h1>
+        <p>"Não a futuro pra quem não sonha</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre-mim.html">Sobre Mim</a></li>
+                <li><a href="minha-visao.html">Minha Visão</a></li>
+                <li><a href="meu-plano.html">Meu Plano</a></li>
+                <li><a href="recursos.html">Recursos</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <br>
+    <br>
+
+    <h1 style="text-align: center;">SOBRE MIM</h1>
+    
+    
+    <main> <!--1111111111111111111-->
+        <section class="card">
+            <h2>Meus Valores</h2>
+            <ul>
+                <li>Honesto</li>
+                <li> Familiaridade</li>
+                <li>Fé</li>
+                <li>conhecimento</li>
+            </ul>
+        </section>
+        <section class="card">
+            <h2>Pontos Fortes</h2>
+            <p>Entendo legal sobre edições de video, Amo e muito, Um talento é me dar bem na maioria dos jogos, me acho criativo, muito muito organizado. </p>
+        </section>
+        <section class="card">
+            <h2>Pontos Fracos / Áreas de Melhoria</h2>
+            <p>Baixo Ego e autoestima, extremamente horrivel em socialização,
+            </p>
+        </section>
+        <section class="card">
+            <h2>Minha História</h2>
+            <p>Sempre fui animado, perfeccionista, e sociavel, sonhava em ser youtuber tenho um canal
+                 e ainda o carrego, foi dando certo, mais por falta de recursos desisti aos poucos isso até os 12 ou 13, 
+                 dai pra frente, foi tudo pra trás, minha vida se resumiu em uma garota, um amor incondicional nao calculavel, 
+                 2 anos de Amor constante, no qual se parecia com uma vida inteira. dado sem retorno algum. 
+            </p>
+        </section>
+    </main> <!--1111111111111111111-->
+</body>
+</html>
+```
+
+<style>
+
+main {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+    transition: transform 0.4s ease-out;
+}
+    .card:hover {
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+    transform: scale(1.1);
+}
+
+.card h2 {
+    color: #0073e6;
+}
+  .card ul li  {
+    list-style: none;
+    width: 510px;
+
+  }      
+        
+ /* MODIFICAÇÃO DO NAVEGADOR-SITE */
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        
+        header {
+            background-color: #0073e6;
+            color: white;
+            padding: 20px;
+        }
+        
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        
+        nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: inline-block; 
+    transition: transform 0.3s ease-out, color 0.3s ease-in-out;
+   
+}
+nav ul li a:hover {
+    color: rgb(37, 213, 90);
+    text-decoration: none;
+   transform: scale(1.2);
+        }
+        /*SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS*/
+#particles-js {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1; /* Para ficar atrás do conteúdo */
+    background: #ffffff; /* Cor de fundo */
+    
+}
+</style>
+        
